@@ -691,17 +691,12 @@ section {
 #values .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;  
-}
-
-.values__description {
-  width: 50%;
+  align-items: center; 
 }
 
 .values__description,
 .values__img {
-  width: 98%;
+  width: 100%;
   padding: 32px 64px 32px 0px;
 }
 
