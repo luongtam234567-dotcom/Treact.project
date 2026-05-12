@@ -692,10 +692,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(10% / 5 * 4);
-  max-width: 1240px;
-  margin: 0px auto;
-  flex-wrap: wrap;
+  width: 100%;  
 }
 
 .values__description {
@@ -820,7 +817,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
 }
 
 .value:nth-child(2) .value__img--wrapper {
@@ -897,10 +893,6 @@ section {
 
 .testimonials__img {
   width: 50%;
-}
-
-img {
-  width: 100%;
 }
 
 .testimonials__description {
