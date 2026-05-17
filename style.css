@@ -818,6 +818,7 @@ section {
 
 .container {
   padding: 96px 0;
+  gap: 48px;
 }
 
 #testimonials .row {
@@ -890,8 +891,8 @@ section {
   font-weight: 700;
 }
 
-.testimonial__para {
-  margin-top: 1rem;
+.testimonials__para {
+   margin-top: 1rem;
   margin-bottom: 2rem;
   font-weight: 500;
   line-height: 1.625;
@@ -899,9 +900,10 @@ section {
   color: rgb(74, 85, 104);
 }
 
-.testimonial__bottom {
+.testimonials__bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .testimonial__profile {
