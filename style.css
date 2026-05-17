@@ -818,7 +818,6 @@ section {
 
 .container {
   padding: 96px 0;
-  gap: 48px;
 }
 
 #testimonials .row {
@@ -830,10 +829,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.testimonials__img {
-  width: 100%;
 }
 
 .testimonials__description {
@@ -903,10 +898,9 @@ section {
 .testimonials__bottom {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.testimonial__profile {
+.testimonials__profile {
   display: flex;
   align-items: center;
 }
